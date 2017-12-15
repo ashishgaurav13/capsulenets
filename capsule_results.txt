@@ -1,0 +1,7 @@
+#MNIST - 50 iterations: acc: 99.58
+#MNIST - 90 roatation: acc: 16.14
+#MNIST - 180 rotation: acc: 45.96
+#fashion mnist - 46 iteration, converged, 92.81
+#fashion mnist - 180 rotation, 26.25% accuracy
+#fashion mnist - 90 rotation, 8.21% accuracy
+

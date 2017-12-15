@@ -1,0 +1,1000 @@
+ 1007  scp -r svernek@wisebob.eng.uwaterloo.ca:/home/sverneka/widea-residual-network .
+ 1008  scp -r sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network .
+ 1009  git clone https://github.com/marcotcr/lime.git
+ 1010  cd lime/
+ 1011  python setup.py install
+ 1012  sudo python setup.py install
+ 1013  pip install -U scikit-image
+ 1014  ls
+ 1015  git clone https://github.com/marcotcr/tf-models.git
+ 1016  ls
+ 1017  cd tf-models/
+ 1018  cd slim/
+ 1019  ls
+ 1020  mkdir pretrained
+ 1021  cd pretrained/
+ 1022  cp /home/sverneka/Downloads/inception_v3_2016_08_28.tar.gz .
+ 1023  ls
+ 1024  tra -xvzf inception_v3_2016_08_28.tar.gz 
+ 1025  tar -xvzf inception_v3_2016_08_28.tar.gz 
+ 1026  ls
+ 1027  cd 
+ 1028  cd lime/
+ 1029  python
+ 1030  ls
+ 1031  cd tf-models/slim/
+ 1032  ls
+ 1033  python
+ 1034  cd wide-residual-network/
+ 1035  ./scripts/cifar100_ensemble_train.sh
+ 1036  top
+ 1037  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1038  echo $CUDNN_PATH
+ 1039  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1040  cd
+ 1041  cd Downloads/
+ 1042  ls
+ 1043  sudo dpkg -i libcudnn6_6.0.21-1+cuda8.0_amd64.deb 
+ 1044  sudo dpkg -i libcudnn6-dev_6.0.21-1+cuda8.0_amd64.deb 
+ 1045  sudo dpkg -i libcudnn6-doc_6.0.21-1+cuda8.0_amd64.deb 
+ 1046  ls
+ 1047  cd /home/sverneka/cudnn_samples_v6/mnistCUDNN/
+ 1048  ./mnistCUDNN 
+ 1049  cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+ 1050  cd
+ 1051  cd Downloads/
+ 1052  tar -xzvf cudnn-8.0-linux-x64-v6.0.tgz 
+ 1053  sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+ 1054  sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+ 1055  sudo chmod a+r /usr/local/cuda/include/cudnn.h
+ 1056  sudo chmod a+r /usr/local/cuda/lib64/libcudnn*
+ 1057  cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+ 1058  cd
+ 1059  cd wide-residual-network/
+ 1060  ./scripts/cifar100_ensemble_train.sh
+ 1061  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1062  top
+ 1063  rm logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1064  ./scripts/cifar100_ensemble_train.sh
+ 1065  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1066  cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+ 1067  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1068  echo $LD_LIBRARY+_PATH
+ 1069  echo $LD_LIBRARY_PATH
+ 1070  export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64:$LD_LIBRARY_PATH
+ 1071  echo ~/.bashrc
+ 1072  source ~/.bashrc
+ 1073  ./scripts/cifar100_ensemble_train.sh
+ 1074  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1075  top
+ 1076  echo $LD_LIBRARY_PATH
+ 1077  vi ~/.bashrc
+ 1078  echo $PATH
+ 1079  vi ~/.bashrc
+ 1080  source ~/.bashrc
+ 1081  rm logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1082  ./scripts/cifar100_ensemble_train.sh
+ 1083  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1084  python
+ 1085  cd
+ 1086  cd fashiomnist/
+ 1087  python
+ 1088  cd
+ 1089  cd wide-residual-network/
+ 1090  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1091  find /usr/local/ -name libcudnn.so.5
+ 1092  find /usr/local/ -name libcudnn*
+ 1093  cd
+ 1094  cd Downloads/
+ 1095  ls
+ 1096  ifconfig
+ 1097  ls
+ 1098  tar -xzvf cudnn-8.0-linux-x64-v5.1.tgz 
+ 1099  rm -rf cuda
+ 1100  tar -xzvf cudnn-8.0-linux-x64-v5.1.tgz 
+ 1101  sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+ 1102  sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+ 1103  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+ 1104  cd
+ 1105  cd wide-residual-network/
+ 1106  ./scripts/cifar100_ensemble_train.sh
+ 1107  top
+ 1108  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1109  rm logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1110  ./scripts/cifar100_ensemble_train.sh
+ 1111  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1112  luarocks install cutorch
+ 1113  luarocks install xlua
+ 1114  luarocks install optnet
+ 1115  rm logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1116  ./scripts/cifar100_ensemble_train.sh
+ 1117  top
+ 1118  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1119  top
+ 1120  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1121  nvidia-smi
+ 1122  nvidia-smi -l 1
+ 1123  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1124  cd
+ 1125  cd cifr100/
+ 1126  ls
+ 1127  vi sample_submission.csv 
+ 1128  vi train_data 
+ 1129  ls
+ 1130  python
+ 1131  python3
+ 1132  which python3
+ 1133  python3 -- version
+ 1134  sudo apt-get install python3-numpy
+ 1135  python3
+ 1136  python
+ 1137  ls
+ 1138  rm test_data_p2
+ 1139  rm train_data_p2
+ 1140  vi PickleDataConvert.py
+ 1141  python3 PickleDataConvert.py 
+ 1142  ls
+ 1143  vi PickleDataConvert.py
+ 1144  rm train_data_p2 
+ 1145  python3 PickleDataConvert.py 
+ 1146  ls
+ 1147  vi PickleDataConvert.py
+ 1148  cd
+ 1149  cd wi
+ 1150  cd wide-residual-network/
+ 1151  ls
+ 1152  cd gen/
+ 1153  ls
+ 1154  cd cifar-100-binary/
+ 1155  ls
+ 1156  cd ..
+ 1157  vi cifar100.t7 
+ 1158  cd
+ 1159  cd wide-residual-network/
+ 1160  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1161  cd 
+ 1162  cd Downloads/
+ 1163  tar -xvzf cifar-100-python.tar.gz 
+ 1164  cd cifar-100-python/
+ 1165  ls -ltr
+ 1166  ls
+ 1167  python
+ 1168  ls
+ 1169  cp train /home/sverneka/cifr100/
+ 1170  cp test /home/sverneka/cifr100/
+ 1171  cd
+ 1172  cd wide-residual-network/
+ 1173  ls
+ 1174  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1175  ls modelState/cifar100/wide-resnet-40x10/1/
+ 1176  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1177  ifconfig
+ 1178  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1179  ls modelState/cifar100/wide-resnet-40x10/1/
+ 1180  vi test.lua 
+ 1181  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1182  ls modelState/cifar100/wide-resnet-40x10/1/
+ 1183  vi logs/cifar100/wide-resnet-40x10/log_1.txt 
+ 1184  vi logs/cifar100/wide-resnet-40x14/log_1.txt 
+ 1185  ./scripts/cifar100_test.sh 
+ 1186  vi train.lua 
+ 1187  ./scripts/cifar100_test.sh 
+ 1188  vi train.lua 
+ 1189  ./scripts/cifar100_test.sh 
+ 1190  vi train.lua 
+ 1191  nvidia-smi
+ 1192  ls
+ 1193  cd ..
+ 1194  cd wide-residual-network/
+ 1195  l;s
+ 1196  ls
+ 1197  cd scripts/
+ 1198  pwd
+ 1199  ssh sverneka@uwaterloo.eng.ca
+ 1200  ssh sverneka@wisebob.uwaterloo.eng.ca
+ 1201  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1202  cd ..
+ 1203  scp train.lua sverneka@wisebob.uwaterloo.ca:/home/sverneka/wide-residual-network/
+ 1204  scp train.lua sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/
+ 1205  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1206  vi scripts/cifar100_ensemble_train.sh 
+ 1207  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1208  history > p.txt
+ 1209  vi p.txt 
+ 1210  ls
+ 1211  cd
+ 1212  scp sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/tst1.txt .
+ 1213  python
+ 1214  cd yahoo/
+ 1215  ls
+ 1216  cd textClassifier/
+ 1217  ls
+ 1218  cd ..
+ 1219  mv train.csv textClassifier/
+ 1220  mv test.csv textClassifier/
+ 1221  mv classes.txt textClassifier/
+ 1222  python
+ 1223  sudo pip install --upgrade gensim
+ 1224  python
+ 1225  cd textClassifier/
+ 1226  python
+ 1227  ls
+ 1228  cd yahoo/textClassifier/
+ 1229  ls
+ 1230  cd ..
+ 1231  cd VDCNN/
+ 1232  ls
+ 1233  cd nlp-benchmarks/
+ 1234  ls
+ 1235  vi VDCNN.py 
+ 1236  ls
+ 1237  vi lib.py
+ 1238  top
+ 1239  nvidia-smi
+ 1240  vi VDCNN.py 
+ 1241  vi lib.py
+ 1242  top
+ 1243  vi lib.py
+ 1244  vi VDCNN.py 
+ 1245  top
+ 1246  vi lib.py
+ 1247  top
+ 1248  cd yahoo/
+ 1249  ls
+ 1250  cd textClassifier/
+ 1251  ls
+ 1252  cp textClassifierHATT.py textClassifierHATT_orig.py
+ 1253  mv textClassifierHATT_orig.py temp.py
+ 1254  rm textClassifierHATT.py 
+ 1255  cp textClassifierHATT\ \(copy\).py classifier.py
+ 1256  vi classifier.py 
+ 1257  sudo pip install http://download.pytorch.org/whl/cu80/torch-0.2.0.post3-cp27-cp27mu-manylinux1_x86_64.whl 
+ 1258  sudo pip install torchvision 
+ 1259  cd ..
+ 1260  mkdir VDCNN
+ 1261  cd VDCNN/
+ 1262  git clone https://github.com/ArdalanM/nlp-benchmarks.git
+ 1263  ls
+ 1264  cd nlp-benchmarks/
+ 1265  ls
+ 1266  vi src/
+ 1267  vi src/VDCNN.py 
+ 1268  cd src/
+ 1269  vi datasets.py 
+ 1270  vi VDCNN.py 
+ 1271  vi datasets.py 
+ 1272  cd ..
+ 1273  cd datasets/
+ 1274  mkdir yahoo_answers
+ 1275  cd yahoo_answers/
+ 1276  mkdir yahoo_answers_csv
+ 1277  cd ..
+ 1278  cd datasets/yahoo_answers/yahoo_answers_csv/
+ 1279  cp /home/sverneka/yahoo/textClassifier/train.csv .
+ 1280  cp /home/sverneka/yahoo/textClassifier/test.csv .
+ 1281  cp /home/sverneka/yahoo/textClassifier/classes.txt .
+ 1282  cd ../../../
+ 1283  python src/VDCNN.py 
+ 1284  ls
+ 1285  cd src/
+ 1286  ls
+ 1287  python VDCNN.py 
+ 1288  cd ..
+ 1289  python src/VDCNN.py 
+ 1290  vi src/VDCNN.py 
+ 1291  cd src/
+ 1292  python
+ 1293  cd ..
+ 1294  python
+ 1295  cd src/
+ 1296  ls
+ 1297  vi VDCNN.py 
+ 1298  cp VDCNN.py ../
+ 1299  cp lib.py ../
+ 1300  cd ..
+ 1301  ls datasets/
+ 1302  cp src/datasets.py .
+ 1303  ls
+ 1304  python VDCNN.py 
+ 1305  vi VDCNN.py 
+ 1306  python VDCNN.py 
+ 1307  vi datasets.py
+ 1308  python VDCNN.py 
+ 1309  vi VDCNN.py 
+ 1310  vi datasets.py
+ 1311  vi ../../textClassifier/classifier.py 
+ 1312  vi datasets.py
+ 1313  python VDCNN.py 
+ 1314  vi datasets.py
+ 1315  python VDCNN.py 
+ 1316  vi datasets.py
+ 1317  python VDCNN.py 
+ 1318  vi datasets.py
+ 1319  vi ../../textClassifier/classifier.py 
+ 1320  vi datasets.py
+ 1321  vi ../../textClassifier/classifier.py 
+ 1322  vi datasets.py
+ 1323  python VDCNN.py 
+ 1324  vi ../../textClassifier/classifier.py 
+ 1325  vi datasets.py
+ 1326  vi ../../textClassifier/classifier.py 
+ 1327  python VDCNN.py 
+ 1328  python
+ 1329  vi datasets.py
+ 1330  python
+ 1331  python VDCNN.py 
+ 1332  vi datasets.py
+ 1333  python VDCNN.py 
+ 1334  vi datasets.py
+ 1335  python VDCNN.py 
+ 1336  vi datasets.py
+ 1337  python VDCNN.py 
+ 1338  vi datasets.py
+ 1339  python VDCNN.py 
+ 1340  ls
+ 1341  cd experiments/
+ 1342  ls
+ 1343  cd VDCNN
+ 1344  ls
+ 1345  vi VDCNN_yahoo_answer_depth_
+ 1346  vi VDCNN_yahoo_answer_depth_29.sh 
+ 1347  cd ../../
+ 1348  vi datasets.py
+ 1349  vi VDCNN.py 
+ 1350  python VDCNN.py 
+ 1351  vi datasets.py
+ 1352  python VDCNN.py 
+ 1353  vi datasets.py
+ 1354  python VDCNN.py 
+ 1355  vi datasets.py
+ 1356  vi VDCNN.py 
+ 1357  python VDCNN.py 
+ 1358  cd yahoo/
+ 1359  ls
+ 1360  cd textClassifier/
+ 1361  ls
+ 1362  vi classifier.py 
+ 1363  nvidia-smi
+ 1364  nvidia-smi -l 1
+ 1365  cd
+ 1366  cd fashiomnist/
+ 1367  vi vgglike_model.py 
+ 1368  cd fashiomnist/
+ 1369  ls
+ 1370  vi vggModel.py 
+ 1371  ls
+ 1372  vi alex_code.py
+ 1373  vi script1.py 
+ 1374  cd
+ 1375  cd yahoo/
+ 1376  ls
+ 1377  cd textClassifier/
+ 1378  ls
+ 1379  wget http://nlp.stanford.edu/data/glove.6B.zip
+ 1380  unzip glove.6B.zip 
+ 1381  ls
+ 1382  mkdir glove
+ 1383  mv glove.6B.* glove
+ 1384  ls
+ 1385  python
+ 1386  top
+ 1387  nvidi-smi
+ 1388  nvidia-smi
+ 1389  nvidia-smi -l 1
+ 1390  python
+ 1391  cd yahoo/textClassifier/
+ 1392  python
+ 1393  vi ~/.keras/keras.json
+ 1394  python
+ 1395  cd 
+ 1396  cd fashiomnist/
+ 1397  python
+ 1398  python vgglike_model.py 
+ 1399  ls
+ 1400  python vggModel.py 
+ 1401  vi vggModel.py 
+ 1402  python vggModel.py 
+ 1403  vi vggModel.py 
+ 1404  python vggModel.py 
+ 1405  sudo apt-get install nvidia-modprobe
+ 1406  python vggModel.py 
+ 1407  export CUDA_VISIBLE_DEVICES=0
+ 1408  python vggModel.py 
+ 1409  sudo reboot
+ 1410  cd
+ 1411  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1412  ls
+ 1413  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1414  sudo pip install -U nltk
+ 1415  top
+ 1416  cd
+ 1417  cd wide-residual-network/
+ 1418  ls
+ 1419  vi train.lua 
+ 1420  cd modelState/cifar100/wide-resnet-28x10/
+ 1421  ls
+ 1422  cd 1/
+ 1423  ls
+ 1424  cd ..
+ 1425  scp -r wide-resnet-40x10/ sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/modelState/cifar100/
+ 1426  vi wide-resnet-40x10/1/best.t7 
+ 1427  cd ../../
+ 1428  vi test.lua 
+ 1429  vi scripts/cifar100_ensemble_train.sh 
+ 1430  vi train.lua 
+ 1431  vi scripts/cifar100_ensemble_train.sh 
+ 1432  ./scripts/cifar100_ensemble_train.sh 
+ 1433  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1434  nvidia-smi
+ 1435  nvidia-smi -l 1
+ 1436  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1437  history > t.txt
+ 1438  vi t.txt 
+ 1439  cd
+ 1440  cd Downloads/
+ 1441  ls
+ 1442  cd cuda/
+ 1443  ls
+ 1444  cd lib64/
+ 1445  ls
+ 1446  ls /usr/local/cuda-8.0/
+ 1447  ls /usr/local/cuda-8.0/lib64
+ 1448  ls /usr/local/cuda/lib64
+ 1449  cd
+ 1450  source ~/.bashrc
+ 1451  ./scripts/cifar100_ensemble_train.sh 
+ 1452  cd wide-residual-network/
+ 1453  ./scripts/cifar100_ensemble_train.sh 
+ 1454  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1455  vi  scripts/cifar100_ensemble_train.sh 
+ 1456  top
+ 1457  vi  scripts/cifar100_ensemble_train.sh 
+ 1458  vi logs/cifar100/wide-resnet-28x20/log_3.txt 
+ 1459  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1460  vi  scripts/cifar100_ensemble_train.sh 
+ 1461  ifconfig
+ 1462  vi  scripts/cifar100_ensemble_train.sh 
+ 1463  sudo chmod a+r /usr/local/cuda/include/cudnn.h
+ 1464  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+ 1465  cd 
+ 1466  cd Downloads/
+ 1467  sudo cp cuda/include/cudnn.h /usr/local/cuda/include
+ 1468  sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
+ 1469  sudo chmod a+r /usr/local/cuda/include/cudnn.h
+ 1470  ls
+ 1471  cd cuda/
+ 1472  sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
+ 1473  ls
+ 1474  cd lib64/
+ 1475  ls
+ 1476  cd
+ 1477  cd wide-residual-network/
+ 1478  ./scripts/cifar100_ensemble_train.sh 
+ 1479  top
+ 1480  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1481  export CUDNN_PATH="/usr/local/cuda/lib64/libcudnn.so.5
+ 1482  export CUDNN_PATH="/usr/local/cuda/lib64/libcudnn.so.5"
+ 1483  source ~/.bashrc
+ 1484  ./scripts/cifar100_ensemble_train.sh 
+ 1485  top
+ 1486  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1487  vi main.lua 
+ 1488  vi train.lua 
+ 1489  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1490  ls modelState/cifar100/wide-resnet-28x20/
+ 1491  ls
+ 1492  ls modelState/cifar100/wide-resnet-28x20/2/
+ 1493  rm -rf modelState/cifar100/wide-resnet-28x20/2
+ 1494  ./scripts/cifar100_ensemble_train.sh 
+ 1495  tail -r logs/cifar100/wide-resnet-28x20/log_2.txt
+ 1496  tail -f logs/cifar100/wide-resnet-28x20/log_2.txt
+ 1497  vi logs/cifar100/wide-resnet-28x20/log_2.txt 
+ 1498  cd gen/
+ 1499  ls
+ 1500  cd cifar-100-binary/
+ 1501  ls
+ 1502  cd ..
+ 1503  cd
+ 1504  ls
+ 1505  cd wide-residual-network/
+ 1506  vi train.lua 
+ 1507  cd
+ 1508  cd Downloads/
+ 1509  git clone https://github.com/meliketoy/wide-residual-network.git
+ 1510  cd wide-residual-network/
+ 1511  ls
+ 1512  cp train.lua ~/wide-residual-network/
+ 1513  cp main.lua ~/wide-residual-network/
+ 1514  cd 
+ 1515  cd wide-residual-network/
+ 1516  ./scripts/cifar100_ensemble_train.sh 
+ 1517  top
+ 1518  cd
+ 1519  cd Downloads/
+ 1520  cd wide-residual-network/
+ 1521  ls
+ 1522  cp -r ~/wide-residual-network/gen/ .
+ 1523  ./scripts/cifar100_train.sh 
+ 1524  ls
+ 1525  cp *.lua ~/wide-residual-network/.
+ 1526  cd
+ 1527  cd wide-residual-network/
+ 1528  ./scripts/cifar100_ensemble_train.sh 
+ 1529  top
+ 1530  ls
+ 1531  cd modelState/
+ 1532  ls
+ 1533  cd cifar100/
+ 1534  ls
+ 1535  cd wide-resnet-28x10/
+ 1536  ls
+ 1537  ls 1
+ 1538  ls
+ 1539  cd ..
+ 1540  rm -rf wide-resnet-28x10/
+ 1541  rm -rf wide-resnet-28x20/2/
+ 1542  cd
+ 1543  cd wide-residual-network/
+ 1544  ./scripts/cifar100_ensemble_train.sh 
+ 1545  top
+ 1546  vi scripts/cifar100_test.sh 
+ 1547  vi scripts/cifar100_ensemble_train.sh 
+ 1548  ls
+ 1549  cd 
+ 1550  cd Downloads/
+ 1551  cd wide-residual-network/
+ 1552  vi scripts/cifar100_train.sh 
+ 1553  ./scripts/cifar100_train.sh 
+ 1554  top
+ 1555  vi nohup.out 
+ 1556  ls
+ 1557  vi scripts/cifar100_train.sh 
+ 1558  ./scripts/cifar100_train.sh 
+ 1559  cd
+ 1560  scp sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/tst1.txt  .
+ 1561  mv tst1.txt tst1.csv
+ 1562  scp sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/tst1.txt  .
+ 1563  mv tst1.txt tst1.csv
+ 1564  scp sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/wide-residual-network/tst.txt  .
+ 1565  git clone https://github.com/xgastaldi/shake-shake.git
+ 1566  git clone -b R4 https://github.com/soumith/cudnn.torch.git
+ 1567  cd cudnn.torch; luarocks make
+ 1568  git clone https://github.com/facebook/fb.resnet.torch.git
+ 1569  cd fb.resnet.torch
+ 1570  git clone https://github.com/xgastaldi/shake-shake.git
+ 1571  ls
+ 1572  cp shake-shake/{main.lua,train.lua,opts.lua,checkpoints.lua} .
+ 1573  cd shake-shake/
+ 1574  cd models/
+ 1575  ls
+ 1576  cp *.lua ../../models/
+ 1577  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1578  cd ../../
+ 1579  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1580  echo $LD_LIBRARY_PATH
+ 1581  souce ~/.bashrc
+ 1582  source ~/.bashrc
+ 1583  echo $LD_LIBRARY_PATH
+ 1584  ls /usr/lib
+ 1585  ls /usr/local/lib/
+ 1586  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1587  luarocks install cudnn
+ 1588  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1589  vi checkpoints.lua 
+ 1590  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1591  nvidia-smi
+ 1592  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1593  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 10 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1594  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 1024 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 10 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1595  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 128 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 10 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1596  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 10 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1597  ls models/
+ 1598  ls checkpoints
+ 1599  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 10 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1600  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 100 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1601  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1602  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 128 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1603  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 64 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape multistep -forwardShake true -backwardShake false -shakeImage true
+ 1604  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.025 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape cosine -forwardShake true -backwardShake false -shakeImage true
+ 1605  ifconfig
+ 1606  vi main.lua 
+ 1607  vi models/init.lua 
+ 1608  grep -rnw . -e "lrShape"
+ 1609  vi train.lua 
+ 1610  cd
+ 1611  cd wide-residual-network/
+ 1612  ls
+ 1613  vi train.lua 
+ 1614  vi scripts/cifar100_ensemble_train.sh 
+ 1615  vi main.lua 
+ 1616  vi train.lua 
+ 1617  vi main.lua 
+ 1618  grep -rnw . -e "LR"
+ 1619  cd
+ 1620  cd cudnn.torch/fb.resnet.torch/
+ 1621  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 1 -netType shakeshake -nGPU 1 -LR 0.1 -nThreads 8 -shareGradInput true -nEpochs 1800 -lrShape multistep -forwardShake true -backwardShake false -shakeImage true
+ 1622  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 128 -netType shakeshake -nGPU 1 -LR 0.1 -nThreads 1 -shareGradInput true -nEpochs 1800 -lrShape multistep -forwardShake true -backwardShake false -shakeImage true
+ 1623  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 64 -netType shakeshake -nGPU 1 -LR 0.1 -nThreads 1 -shareGradInput true -nEpochs 1800 -lrShape multistep -forwardShake true -backwardShake false -shakeImage true
+ 1624  CUDA_VISIBLE_DEVICES=0,1 th main.lua -dataset cifar100 -depth 29 -baseWidth 64 -groups 4 -weightDecay 5e-4 -batchSize 32 -netType shakeshake -nGPU 1 -LR 0.1 -nThreads 1 -shareGradInput true -nEpochs 1800 -lrShape multistep -forwardShake true -backwardShake false -shakeImage true
+ 1625  nvidia-smi
+ 1626  nvidia-smi -l 1
+ 1627  cd
+ 1628  ls
+ 1629  cd wavedata/
+ 1630  ls
+ 1631  cd ..
+ 1632  cd wavelab/
+ 1633  ls
+ 1634  cd
+ 1635  cd wavelab/
+ 1636  git push
+ 1637  ls
+ 1638  history > a.txt
+ 1639  vi a.txt 
+ 1640  cd
+ 1641  cd lime/
+ 1642  ls
+ 1643  cd tf-models/
+ 1644  ls
+ 1645  cd slim/
+ 1646  ls
+ 1647  sudo nvidia-modprobe -u -c=0
+ 1648  find . -name dogs.jpg
+ 1649  cd
+ 1650  cd lime/
+ 1651  find . -name dogs.jpg
+ 1652  ls
+ 1653  cd tf-models/slim/
+ 1654  ls
+ 1655  top
+ 1656  nvidia-smi
+ 1657  nvidia-smi -l 1
+ 1658  top
+ 1659  nvidia-smi -l 1
+ 1660  cd
+ 1661  ifconfig
+ 1662  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+ 1663  subl
+ 1664  sudo apt-get update
+ 1665  sudo apt-get install sublime-text-installer
+ 1666  subl
+ 1667  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+ 1668  sudo apt-get install apt-transport-https
+ 1669  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+ 1670  sudo apt-get update
+ 1671  sudo apt-get install sublime-text
+ 1672  npm
+ 1673  cd
+ 1674  cd yahoo/
+ 1675  ks
+ 1676  ls
+ 1677  git clone https://github.com/richliao/textClassifier.git
+ 1678  ls
+ 1679  cd textClassifier/
+ 1680  ls
+ 1681  sudo pip install Theano[test, doc]
+ 1682  sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
+ 1683  sudo pip install Theano
+ 1684  sudo pip install beautifulsoup4
+ 1685  python
+ 1686  cd fashiomnist/
+ 1687  python vggModel.py 
+ 1688  cd
+ 1689  cd yahoo/
+ 1690  ls
+ 1691  cd VDCNN/
+ 1692  python
+ 1693  cd ..
+ 1694  cd textClassifier/
+ 1695  ls
+ 1696  python
+ 1697  sverneka@wisebob:~/wide-residual-network$ 
+ 1698  sverneka@wisebob:~/wide-residual-network$ ls
+ 1699  checkpoints.lua              dataloader.lua  ensemble.lua  IMAGES      logs     main.lua    networks   opts.lua   scripts    test.lua
+ 1700  cifar100_ensemble_train.log  datasets        gen           INSTALL.md  log.txt  modelState  nohup.out  README.md  SERVER.md  train.lua
+ 1701  sverneka@wisebob:~/wide-residual-network$ 
+ 1702  sverneka@wisebob:~/wide-residual-network$ exit
+ 1703  logout
+ 1704  cd yahoo/
+ 1705  vi textClassifier/
+ 1706  cd textClassifier/
+ 1707  vi classifier.py 
+ 1708  top
+ 1709  kill -9 2336
+ 1710  kill -9 2335
+ 1711  top
+ 1712  sudo reboot
+ 1713  cd yahoo/textClassifier/
+ 1714  python
+ 1715  cd yahoo/textClassifier/
+ 1716  vi classifier.py 
+ 1717  nvidia-smi
+ 1718  nvidia-smi -l 1
+ 1719  vi classifier.py 
+ 1720  vi ~/.theanorc
+ 1721  vi classifier.py 
+ 1722  locate .theanorc
+ 1723  vi ~/.theanorc
+ 1724  python
+ 1725  vi ~/.theanorc
+ 1726  python
+ 1727  cd
+ 1728  git clone https://github.com/Theano/libgpuarray.git
+ 1729  cd libgpuarray/
+ 1730  cd src/
+ 1731  ls
+ 1732  cd ..
+ 1733  mkdir Build
+ 1734  cd Build/
+ 1735  cmake .. -DCMAKE_BUILD_TYPE=Release # or Debug if you are investigating a crash
+ 1736  make
+ 1737  make install
+ 1738  sudo make install
+ 1739  cd ..
+ 1740  python setup.py build
+ 1741  cd ..
+ 1742  sudo pip install -U git+https://github.com/Theano/Theano.git#egg=Theano
+ 1743  python
+ 1744  sudo reboot
+ 1745  python
+ 1746  vi ~/.theanorc
+ 1747  python
+ 1748  vi ~/.theanorc
+ 1749  python
+ 1750  cd libgpuarray/
+ 1751  ls
+ 1752  python setup.py build
+ 1753  sudo pip install Cython
+ 1754  python setup.py build
+ 1755  sudo python setup.py install
+ 1756  cd ..
+ 1757  python
+ 1758  sudo $sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
+ 1759  sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
+ 1760  $sudo pip install Theano
+ 1761  vi ~/.theanorc
+ 1762  python
+ 1763  cd libgpuarray/
+ 1764  ls
+ 1765  sudo conda install pygpu
+ 1766  sudo pip install conda
+ 1767  sudo conda install pygpu
+ 1768  cd
+ 1769  vi temp.sh
+ 1770  sudo sh temp.sh 
+ 1771  vi temp.sh
+ 1772  rm -rf temp.
+ 1773  rm -rf temp.sh
+ 1774  rm -rf libgpuarray/
+ 1775  sudo rm -rf libgpuarray/
+ 1776  git clone https://github.com/Theano/libgpuarray.git
+ 1777  cd libgpuarray
+ 1778  git checkout tags/v0.6.5 -b v0.6.9
+ 1779  ls
+ 1780  mkdir Build
+ 1781  cd Build/
+ 1782  ssudo
+ 1783  sudo cmake .. -DCMAKE_BUILD_TYPE=Release 
+ 1784  sudo make
+ 1785  sudo make install
+ 1786  cd ..
+ 1787  sudo python setup.py build
+ 1788  sudo python setup.py install
+ 1789  python
+ 1790  sudo python
+ 1791  sudo reboot
+ 1792  python
+ 1793  sudo python
+ 1794  pygpu.version.fullversion
+ 1795  sudo apt-get remove --auto-remove python-pygpu
+ 1796  sudo apt-get remove --auto-remove pygpu
+ 1797  sudo apt-get purge --auto-remove python-pygpu
+ 1798  sudo ldconfig
+ 1799  cd /usr/local/lib/python2.7/dist-packages/
+ 1800  ls
+ 1801  sudo rm -rf pygpu-0.*
+ 1802  cd
+ 1803  cd rm -rf libgpuarray/
+ 1804  sudo rm -rf libgpuarray/
+ 1805  git clone https://github.com/Theano/libgpuarray.git
+ 1806  cd libgpuarray
+ 1807  git checkout tags/v0.6.5 -b v0.6.9
+ 1808  mkdir Build
+ 1809  cd Build/
+ 1810  sudo cmake .. -DCMAKE_BUILD_TYPE=Release 
+ 1811  sudo make
+ 1812  sudo make install
+ 1813  cd ..
+ 1814  sudo python setup.py build
+ 1815  sudo python setup.py install
+ 1816  python
+ 1817  cd
+ 1818  python
+ 1819  cd /usr/local/lib/python2.7/dist-packages/
+ 1820  rm -rf pygpu-0.6.5-py2.7-linux-x86_64.egg/
+ 1821  sudo rm -rf pygpu-0.6.5-py2.7-linux-x86_64.egg/
+ 1822  cd
+ 1823  sudo rm -rf libgpuarray/
+ 1824  git clone https://github.com/Theano/libgpuarray.git
+ 1825  cd libgpuarray/
+ 1826  mkdir Build
+ 1827  cd Build/
+ 1828  sudo cmake .. -DCMAKE_INSTALL_PREFIX=~/.local -DCMAKE_BUILD_TYPE=Release
+ 1829  sudo make
+ 1830  sudo make install
+ 1831  export CPATH=$CPATH:~/.local/include
+ 1832  cd ..
+ 1833  sudo python setup.py build
+ 1834  sudo apt-get install python-dev
+ 1835  cd
+ 1836  rm -rf libgpuarray/
+ 1837  sudo rm -rf libgpuarray/
+ 1838  git clone https://github.com/Theano/libgpuarray.git
+ 1839  cd libgpuarray
+ 1840  mkdir Build
+ 1841  cd Build/
+ 1842  sudo cmake .. -DCMAKE_BUILD_TYPE=Release
+ 1843  sudo make
+ 1844  sudo make install
+ 1845  cd ..
+ 1846  sudo python setup.py build
+ 1847  sudo python setup.py install
+ 1848  cd ..
+ 1849  python
+ 1850  cd yahoo/textClassifier/
+ 1851  python
+ 1852  vi classifier.py 
+ 1853  nvidia-smi
+ 1854  nvidia-smi -l 1
+ 1855  vi classifier.py 
+ 1856  cd
+ 1857  cd fashiomnist/
+ 1858  vi vggModel.py 
+ 1859  cd 
+ 1860  cd yahoo/textClassifier/
+ 1861  ls
+ 1862  vi classifier.py 
+ 1863  cd yahoo/textClassifier/
+ 1864  python
+ 1865  python -c 'import keras; print(keras.__version__)'
+ 1866  sudo pip install keras==1.2
+ 1867  python -c 'import keras; print(keras.__version__)'
+ 1868  sudo pip install keras==1.2.2
+ 1869  python -c 'import keras; print(keras.__version__)'
+ 1870  python
+ 1871  from theano import function, config, shared, tensor
+ 1872  wget http://www.teamviewer.com/download
+ 1873  ls
+ 1874  ls -ltr
+ 1875  rm -rf download 
+ 1876  wget https://download.teamviewer.com/download/teamviewer_i386.deb
+ 1877  sudo dpkg -i teamviewer_i386.deb 
+ 1878  sudo apt install teamviewer_12.0.xxxxx_i386.deb 
+ 1879  ls
+ 1880  sudo apt install teamviewer_i386.deb
+ 1881  sudo apt install teamviewer_i386
+ 1882  sudo apt install teamviewer_i386.deb
+ 1883  wget https://download.teamviewer.com/download/teamviewer_i386.deb
+ 1884  rm teamviewer_i386.deb*
+ 1885  wget https://download.teamviewer.com/download/teamviewer_i386.deb
+ 1886  sudo apt install teamviewer_i386.deb
+ 1887  sudo apt install teamviewer
+ 1888  rm -rf teamviewer
+ 1889  ls 
+ 1890  ls
+ 1891  sudo dpkg -i teamviewer_i386.deb 
+ 1892  ls
+ 1893  sudo apt-get install -f
+ 1894  sudo dpkg -i teamviewer_i386.deb 
+ 1895  teamviewer setup
+ 1896  sudo teamviewer setup
+ 1897  cd fashiomnist/
+ 1898  ls
+ 1899  python
+ 1900  sudo pip install keras
+ 1901  python
+ 1902  sudo  rm -r /usr/local/lib/python2.7/dist-packages/keras
+ 1903  sudo pip install keras
+ 1904  sudo pip uninstall keras
+ 1905  sudo pip install keras
+ 1906  python
+ 1907  cd fashiomnist/
+ 1908  vi vgglike_model.py 
+ 1909  git clone https://github.com/XifengGuo/CapsNet-Keras.git
+ 1910  cd CapsNet-Keras/
+ 1911  ls
+ 1912  ls result/
+ 1913  python capsulenet.py
+ 1914  clear
+ 1915  python capsulenet.py
+ 1916  python capsulenet.py > a.txt
+ 1917  python capsulenet.py
+ 1918  cd cd 
+ 1919  cd
+ 1920  cd fashiomnist/
+ 1921  vi vggModel.py 
+ 1922  cd CapsNet-Keras/
+ 1923  vi a.txt 
+ 1924  cd 
+ 1925  cd fashiomnist/
+ 1926  python
+ 1927  cd CapsNet-Keras/
+ 1928  ls
+ 1929  python capsulenet.py
+ 1930  cd CapsNet-Keras/
+ 1931  ls
+ 1932  python capsulenet.py
+ 1933  cd CapsNet-Keras/
+ 1934  vi capsulenet.py 
+ 1935  cd
+ 1936  cd fashiomnist/
+ 1937  vi vggModel.py 
+ 1938  cd CapsNet-Keras/
+ 1939  python
+ 1940  top
+ 1941  nvidia-smi
+ 1942  nvidia-smi -l 1
+ 1943  exit
+ 1944  nvidia-smi -l 1
+ 1945  exit
+ 1946  cd CapsNet-Keras/
+ 1947  python capsulenet.py
+ 1948  top
+ 1949  nvidia-smi
+ 1950  nvidia-smi -l 1
+ 1951  kill -9 13201
+ 1952  nvidia-smi -l 1
+ 1953  python capsulenet.py
+ 1954  cd CapsNet-Keras/
+ 1955  ls
+ 1956  cd 
+ 1957  cd fashiomnist/
+ 1958  ls
+ 1959  cp fashion-mnist_train.csv ../CapsNet-Keras/
+ 1960  cp fashion-mnist_test.csv ../CapsNet-Keras/
+ 1961  vi fashion-mnist_train.csv 
+ 1962  vi fashion-mnist_test.csv 
+ 1963  vi fashion-mnist_train.csv 
+ 1964  vi vggModel.py 
+ 1965  vi vgglike_model.py 
+ 1966  ls *.py
+ 1967  vi scripts3.py 
+ 1968  cd
+ 1969  cd CapsNet-Keras/
+ 1970  vi capsulenet.py 
+ 1971  ifconfig
+ 1972  cd fashiomnist/
+ 1973  vi vgglike_model.py 
+ 1974  cd
+ 1975  cd CapsNet-Keras/
+ 1976  ls
+ 1977  vi capsulenet.py 
+ 1978  python capsulenet.py
+ 1979  vi capsulenet.py 
+ 1980  python capsulenet.py
+ 1981  vi capsulenet.py 
+ 1982  python capsulenet.py
+ 1983  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1984  python
+ 1985  vi ~/.theanorc
+ 1986  cd 
+ 1987  cd yahoo/textClassifier/
+ 1988  ls
+ 1989  scp out3.npy sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/yahoo/
+ 1990  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 1991  scp  sverneka@wisebob.eng.uwaterloo.ca:/home/sverneka/yahoo/output_han_ensemble.csv .
+ 1992  ls
+ 1993  cd yahoo/textClassifier/
+ 1994  ls
+ 1995  python
+ 1996  histor > a.txt
+ 1997  history > a.txt
+ 1998  vi a.txt 
+ 1999  ssh sverneka@wisebob.eng.uwaterloo.ca
+ 2000  cd CapsNet-Keras/
+ 2001  ls
+ 2002  vi capsulelayers.py
+ 2003  ls
+ 2004  cp capsulenet_rotated_test_fmnist.py capsulenet_vector_match.py
+ 2005  vi capsulenet_vector_match.py 
+ 2006  history > a.txt

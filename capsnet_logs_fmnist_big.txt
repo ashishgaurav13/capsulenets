@@ -1,0 +1,75 @@
+Epoch 1/50
+599/600 [============================>.] - ETA: 1s - loss: 0.1821 - capsnet_loss: 0.1608 - decoder_loss: 0.0543 - capsnet_acc: 0.7756Epoch 00001: val_capsnet_acc improved from -inf to 0.85130, saving model to ./result_fmnist_big/weights-01.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.1820 - capsnet_loss: 0.1607 - decoder_loss: 0.0543 - capsnet_acc: 0.7757 - val_loss: 0.1307 - val_capsnet_loss: 0.1152 - val_decoder_loss: 0.0395 - val_capsnet_acc: 0.8513
+Epoch 2/50
+599/600 [============================>.] - ETA: 1s - loss: 0.1235 - capsnet_loss: 0.1088 - decoder_loss: 0.0375 - capsnet_acc: 0.8538Epoch 00002: val_capsnet_acc improved from 0.85130 to 0.87300, saving model to ./result_fmnist_big/weights-02.h5
+600/600 [==============================] - 698s 1s/step - loss: 0.1235 - capsnet_loss: 0.1088 - decoder_loss: 0.0375 - capsnet_acc: 0.8537 - val_loss: 0.1103 - val_capsnet_loss: 0.0953 - val_decoder_loss: 0.0382 - val_capsnet_acc: 0.8730
+Epoch 3/50
+599/600 [============================>.] - ETA: 1s - loss: 0.1079 - capsnet_loss: 0.0948 - decoder_loss: 0.0334 - capsnet_acc: 0.8739Epoch 00003: val_capsnet_acc improved from 0.87300 to 0.88780, saving model to ./result_fmnist_big/weights-03.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.1079 - capsnet_loss: 0.0948 - decoder_loss: 0.0334 - capsnet_acc: 0.8739 - val_loss: 0.0992 - val_capsnet_loss: 0.0867 - val_decoder_loss: 0.0318 - val_capsnet_acc: 0.8878
+Epoch 4/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0972 - capsnet_loss: 0.0852 - decoder_loss: 0.0306 - capsnet_acc: 0.8870Epoch 00004: val_capsnet_acc improved from 0.88780 to 0.89380, saving model to ./result_fmnist_big/weights-04.h5
+600/600 [==============================] - 698s 1s/step - loss: 0.0972 - capsnet_loss: 0.0852 - decoder_loss: 0.0306 - capsnet_acc: 0.8871 - val_loss: 0.0935 - val_capsnet_loss: 0.0821 - val_decoder_loss: 0.0291 - val_capsnet_acc: 0.8938
+Epoch 5/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0906 - capsnet_loss: 0.0793 - decoder_loss: 0.0290 - capsnet_acc: 0.8952Epoch 00005: val_capsnet_acc improved from 0.89380 to 0.89860, saving model to ./result_fmnist_big/weights-05.h5
+600/600 [==============================] - 698s 1s/step - loss: 0.0906 - capsnet_loss: 0.0793 - decoder_loss: 0.0290 - capsnet_acc: 0.8952 - val_loss: 0.0861 - val_capsnet_loss: 0.0750 - val_decoder_loss: 0.0285 - val_capsnet_acc: 0.8986
+Epoch 6/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0844 - capsnet_loss: 0.0735 - decoder_loss: 0.0278 - capsnet_acc: 0.9038Epoch 00006: val_capsnet_acc improved from 0.89860 to 0.90560, saving model to ./result_fmnist_big/weights-06.h5
+600/600 [==============================] - 698s 1s/step - loss: 0.0844 - capsnet_loss: 0.0735 - decoder_loss: 0.0278 - capsnet_acc: 0.9038 - val_loss: 0.0799 - val_capsnet_loss: 0.0697 - val_decoder_loss: 0.0261 - val_capsnet_acc: 0.9056
+
+2017-11-29 20:55:20.675639: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0)
+Epoch 1/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0904 - capsnet_loss: 0.0791 - decoder_loss: 0.0289 - capsnet_acc: 0.8985Epoch 00001: val_capsnet_acc improved from -inf to 0.90370, saving model to ./result_fmnist_big/weights-01.h5
+600/600 [==============================] - 703s 1s/step - loss: 0.0904 - capsnet_loss: 0.0791 - decoder_loss: 0.0289 - capsnet_acc: 0.8985 - val_loss: 0.0891 - val_capsnet_loss: 0.0778 - val_decoder_loss: 0.0288 - val_capsnet_acc: 0.9037
+Epoch 2/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0856 - capsnet_loss: 0.0748 - decoder_loss: 0.0276 - capsnet_acc: 0.9037Epoch 00002: val_capsnet_acc improved from 0.90370 to 0.91290, saving model to ./result_fmnist_big/weights-02.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0857 - capsnet_loss: 0.0749 - decoder_loss: 0.0276 - capsnet_acc: 0.9036 - val_loss: 0.0801 - val_capsnet_loss: 0.0693 - val_decoder_loss: 0.0276 - val_capsnet_acc: 0.9129
+Epoch 3/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0789 - capsnet_loss: 0.0687 - decoder_loss: 0.0262 - capsnet_acc: 0.9122Epoch 00003: val_capsnet_acc improved from 0.91290 to 0.91320, saving model to ./result_fmnist_big/weights-03.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0789 - capsnet_loss: 0.0687 - decoder_loss: 0.0262 - capsnet_acc: 0.9122 - val_loss: 0.0770 - val_capsnet_loss: 0.0661 - val_decoder_loss: 0.0277 - val_capsnet_acc: 0.9132
+Epoch 4/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0743 - capsnet_loss: 0.0644 - decoder_loss: 0.0253 - capsnet_acc: 0.9189Epoch 00004: val_capsnet_acc improved from 0.91320 to 0.92130, saving model to ./result_fmnist_big/weights-04.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0743 - capsnet_loss: 0.0644 - decoder_loss: 0.0253 - capsnet_acc: 0.9189 - val_loss: 0.0718 - val_capsnet_loss: 0.0620 - val_decoder_loss: 0.0250 - val_capsnet_acc: 0.9213
+Epoch 5/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0708 - capsnet_loss: 0.0612 - decoder_loss: 0.0245 - capsnet_acc: 0.9229Epoch 00005: val_capsnet_acc improved from 0.92130 to 0.92200, saving model to ./result_fmnist_big/weights-05.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0708 - capsnet_loss: 0.0612 - decoder_loss: 0.0245 - capsnet_acc: 0.9228 - val_loss: 0.0696 - val_capsnet_loss: 0.0602 - val_decoder_loss: 0.0240 - val_capsnet_acc: 0.9220
+Epoch 6/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0666 - capsnet_loss: 0.0573 - decoder_loss: 0.0239 - capsnet_acc: 0.9285Epoch 00006: val_capsnet_acc did not improve
+600/600 [==============================] - 699s 1s/step - loss: 0.0666 - capsnet_loss: 0.0573 - decoder_loss: 0.0238 - capsnet_acc: 0.9284 - val_loss: 0.0744 - val_capsnet_loss: 0.0652 - val_decoder_loss: 0.0236 - val_capsnet_acc: 0.9170
+Epoch 7/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0640 - capsnet_loss: 0.0548 - decoder_loss: 0.0232 - capsnet_acc: 0.9309Epoch 00007: val_capsnet_acc improved from 0.92200 to 0.92890, saving model to ./result_fmnist_big/weights-07.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0640 - capsnet_loss: 0.0548 - decoder_loss: 0.0232 - capsnet_acc: 0.9308 - val_loss: 0.0636 - val_capsnet_loss: 0.0547 - val_decoder_loss: 0.0226 - val_capsnet_acc: 0.9289
+Epoch 8/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0605 - capsnet_loss: 0.0516 - decoder_loss: 0.0227 - capsnet_acc: 0.9353Epoch 00008: val_capsnet_acc did not improve
+600/600 [==============================] - 702s 1s/step - loss: 0.0605 - capsnet_loss: 0.0516 - decoder_loss: 0.0227 - capsnet_acc: 0.9353 - val_loss: 0.0643 - val_capsnet_loss: 0.0554 - val_decoder_loss: 0.0226 - val_capsnet_acc: 0.9282
+Epoch 9/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0581 - capsnet_loss: 0.0493 - decoder_loss: 0.0222 - capsnet_acc: 0.9397Epoch 00009: val_capsnet_acc improved from 0.92890 to 0.92910, saving model to ./result_fmnist_big/weights-09.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0581 - capsnet_loss: 0.0494 - decoder_loss: 0.0222 - capsnet_acc: 0.9397 - val_loss: 0.0629 - val_capsnet_loss: 0.0543 - val_decoder_loss: 0.0219 - val_capsnet_acc: 0.9291
+Epoch 10/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0559 - capsnet_loss: 0.0473 - decoder_loss: 0.0218 - capsnet_acc: 0.9414Epoch 00010: val_capsnet_acc improved from 0.92910 to 0.92970, saving model to ./result_fmnist_big/weights-10.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0559 - capsnet_loss: 0.0473 - decoder_loss: 0.0218 - capsnet_acc: 0.9414 - val_loss: 0.0637 - val_capsnet_loss: 0.0551 - val_decoder_loss: 0.0218 - val_capsnet_acc: 0.9297
+Epoch 11/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0536 - capsnet_loss: 0.0451 - decoder_loss: 0.0215 - capsnet_acc: 0.9456Epoch 00011: val_capsnet_acc improved from 0.92970 to 0.93570, saving model to ./result_fmnist_big/weights-11.h5
+600/600 [==============================] - 699s 1s/step - loss: 0.0535 - capsnet_loss: 0.0451 - decoder_loss: 0.0215 - capsnet_acc: 0.9456 - val_loss: 0.0603 - val_capsnet_loss: 0.0521 - val_decoder_loss: 0.0209 - val_capsnet_acc: 0.9357
+Epoch 12/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0513 - capsnet_loss: 0.0430 - decoder_loss: 0.0211 - capsnet_acc: 0.9483Epoch 00012: val_capsnet_acc did not improve
+600/600 [==============================] - 710s 1s/step - loss: 0.0514 - capsnet_loss: 0.0431 - decoder_loss: 0.0211 - capsnet_acc: 0.9482 - val_loss: 0.0651 - val_capsnet_loss: 0.0566 - val_decoder_loss: 0.0216 - val_capsnet_acc: 0.9251
+Epoch 13/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0496 - capsnet_loss: 0.0414 - decoder_loss: 0.0208 - capsnet_acc: 0.9505Epoch 00013: val_capsnet_acc did not improve
+600/600 [==============================] - 706s 1s/step - loss: 0.0496 - capsnet_loss: 0.0414 - decoder_loss: 0.0208 - capsnet_acc: 0.9505 - val_loss: 0.0591 - val_capsnet_loss: 0.0510 - val_decoder_loss: 0.0206 - val_capsnet_acc: 0.9344
+Epoch 14/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0478 - capsnet_loss: 0.0398 - decoder_loss: 0.0205 - capsnet_acc: 0.9523Epoch 00014: val_capsnet_acc did not improve
+600/600 [==============================] - 706s 1s/step - loss: 0.0478 - capsnet_loss: 0.0398 - decoder_loss: 0.0205 - capsnet_acc: 0.9523 - val_loss: 0.0586 - val_capsnet_loss: 0.0507 - val_decoder_loss: 0.0202 - val_capsnet_acc: 0.9353
+Epoch 15/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0460 - capsnet_loss: 0.0380 - decoder_loss: 0.0203 - capsnet_acc: 0.9544Epoch 00015: val_capsnet_acc did not improve
+600/600 [==============================] - 702s 1s/step - loss: 0.0460 - capsnet_loss: 0.0381 - decoder_loss: 0.0203 - capsnet_acc: 0.9544 - val_loss: 0.0587 - val_capsnet_loss: 0.0508 - val_decoder_loss: 0.0202 - val_capsnet_acc: 0.9336
+Epoch 16/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0446 - capsnet_loss: 0.0368 - decoder_loss: 0.0200 - capsnet_acc: 0.9571Epoch 00016: val_capsnet_acc did not improve
+600/600 [==============================] - 701s 1s/step - loss: 0.0446 - capsnet_loss: 0.0367 - decoder_loss: 0.0200 - capsnet_acc: 0.9571 - val_loss: 0.0579 - val_capsnet_loss: 0.0500 - val_decoder_loss: 0.0203 - val_capsnet_acc: 0.9337
+Epoch 17/50
+599/600 [============================>.] - ETA: 1s - loss: 0.0433 - capsnet_loss: 0.0355 - decoder_loss: 0.0199 - capsnet_acc: 0.9584Epoch 00017: val_capsnet_acc improved from 0.93570 to 0.93640, saving model to ./result_fmnist_big/weights-17.h5
+600/600 [==============================] - 703s 1s/step - loss: 0.0434 - capsnet_loss: 0.0356 - decoder_loss: 0.0199 - capsnet_acc: 0.9583 - val_loss: 0.0567 - val_capsnet_loss: 0.0490 - val_decoder_loss: 0.0197 - val_capsnet_acc: 0.9364
+Epoch 18/50
+ 90/600 [===>..........................] - ETA: 9:26 - loss: 0.0424 - capsnet_loss: 0.0347 - decoder_loss: 0.0197 - capsnet_acc: 0.9614^CTraceback (most recent call last):
+ 
+
